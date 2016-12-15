@@ -40,6 +40,7 @@ public class View extends JFrame {
         setResizable(false);
         setSize(1000, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocation(150, 50);
 
         update();
         render();
