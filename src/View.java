@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 
 /**
@@ -10,6 +11,9 @@ public class View extends JFrame {
 
     private JComboBox<String> listDistrict;
     private JComboBox<String> listArea;
+
+    private JLabel labelDistrict;
+    private JLabel labelArea;
 
     private JPanel options_panel;
     private DrawingPanel drawing_panel;
@@ -31,12 +35,16 @@ public class View extends JFrame {
         listDistrict = new JComboBox<>(new String[]{"Middle Earth", "Eriador", "Gondor", "Mordor", "Rhovanion"});
         listArea = new JComboBox<>();
 
-        options_panel = new JPanel();
+        labelDistrict = new JLabel("Région principale : ");
+        labelArea = new JLabel("Région secondaire : ");
+
+        options_panel = new JPanel(new GridLayout(2, 2));
         drawing_panel = new DrawingPanel();
 
         options_panel.setSize(300, 700);
         drawing_panel.setSize(700, 700);
 
+        setTitle("Middle Earth Map");
         setResizable(false);
         setSize(1000, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -69,7 +77,9 @@ public class View extends JFrame {
 
         options_panel.removeAll();
 
+        options_panel.add(labelDistrict);
         options_panel.add(listDistrict);
+        options_panel.add(labelArea);
         options_panel.add(listArea);
 
         add(options_panel);
