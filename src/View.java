@@ -15,6 +15,9 @@ public class View extends JFrame {
     private JLabel labelDistrict;
     private JLabel labelArea;
 
+    private JLabel []labelIcons;
+    private JCheckBox []boxIcons;
+
     private JPanel options_panel;
     private DrawingPanel drawing_panel;
 
@@ -29,6 +32,9 @@ public class View extends JFrame {
             {"Rhovanion", "Fangorn", "Foret Noiresud", "Grand fleuve", "Lothlorien", "Moria",
                     "Rohan Est", "Rohan Ouest"}};
 
+    private final String []iconsName = new String[]{"Battailles", "Rivières", "Forêts", "Auberges",
+            "Locations Cheveaux", "Montagnes", "Sources de magie", "Sources de santé", "Villes"};
+
     public View(Model model) {
         this.model = model;
 
@@ -38,7 +44,15 @@ public class View extends JFrame {
         labelDistrict = new JLabel("Région principale : ");
         labelArea = new JLabel("Région secondaire : ");
 
-        options_panel = new JPanel(new GridLayout(2, 2));
+        labelIcons = new JLabel[iconsName.length];
+        for (int i = 0; i < iconsName.length; i++)
+            labelIcons[i] = new JLabel(iconsName[i]);
+
+        boxIcons = new JCheckBox[iconsName.length];
+        for (int i = 0; i < iconsName.length; i++)
+            boxIcons[i] = new JCheckBox(iconsName[i]);
+
+        options_panel = new JPanel(new GridLayout(20, 2));
         drawing_panel = new DrawingPanel();
 
         options_panel.setSize(300, 700);
@@ -81,6 +95,14 @@ public class View extends JFrame {
         options_panel.add(listDistrict);
         options_panel.add(labelArea);
         options_panel.add(listArea);
+
+        options_panel.add(new JLabel());
+        options_panel.add(new JLabel());
+
+        for (int i = 0; i < iconsName.length; i++) {
+            options_panel.add(boxIcons[i]);
+            options_panel.add(new JLabel());
+        }
 
         add(options_panel);
         add(drawing_panel);
