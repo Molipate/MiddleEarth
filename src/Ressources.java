@@ -1,8 +1,7 @@
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.awt.image.ImageConsumer;
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
 
 /**
@@ -13,12 +12,14 @@ public class Ressources {
     private static Ressources ourInstance = new Ressources();
 
     private Map<String, BufferedImage> maps;
+    private ArrayList<Datas> datas;
 
     public static Ressources getInstance() {
         return ourInstance;
     }
 
     public BufferedImage getMap(String str){
+
         Set<Map.Entry<String, BufferedImage>> sethm = maps.entrySet();
         Iterator<Map.Entry<String, BufferedImage>> it = sethm.iterator();
 
@@ -34,6 +35,7 @@ public class Ressources {
     private Ressources() {
 
         maps = new HashMap<String, BufferedImage>();
+        datas = new ArrayList<>();
         try{
 
             maps.put("Middle Earth", ImageIO.read(new File("Assets/middlearth.png")));
@@ -73,6 +75,25 @@ public class Ressources {
             maps.put("Moria", ImageIO.read(new File("Assets/rhovanion/moria/moria.png")));
             maps.put("Rohan Est", ImageIO.read(new File("Assets/rhovanion/Rhoan est/rohanest.png")));
             maps.put("Rohan Ouest", ImageIO.read(new File("Assets/rhovanion/Rohan ouest/rohan ouest.png")));
+        }
+        catch (IOException e){
+            System.err.println(e.toString());
+        }
+
+        try{
+
+            InputStream ips = new FileInputStream("Assets/lotrods.csv");
+            InputStreamReader ipsr = new InputStreamReader(ips);
+            BufferedReader br = new BufferedReader(ipsr);
+
+            String line = br.readLine();
+            while((line = br.readLine()) != null) {
+                Datas d = new Datas(line);
+                datas.add(d);
+                //System.out.println(d.toString());
+            }
+
+            br.close();
         }
         catch (IOException e){
             System.err.println(e.toString());

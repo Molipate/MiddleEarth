@@ -1,0 +1,629 @@
+Latitude,Longitude,Latitudezoomee,Longitudezoomee,REFERENCE,Région,Commune,Insee,Catégorie,Désignation,Propriétaire,Description,Année de découverte/création,!
+568,533,752,533,Vier0,Eriador,,,,Angmar,Le roi-sorcier et seigneur nazgul,Ville d'Angmar,5400,!
+581,533,350,586,Au0,Eriador,Angmar,,Auberge,Auberge du roi-sorcier,Le roi-sorcier et seigneur nazgul,Auberge sur la chaîne de montagne ouest de l'ouest d'angmar ,5402,!
+575,533,430,579,Au1,Eriador,Angmar,,Auberge,Auberge du conseiller,Nazguls,Fait face à l'auberge du roi-sorcier,5411,!
+573,536,580,550,Au2,Eriador,Angmar,,Auberge,Auberge de l'exil,Nazguls,Une auberge dans les terres inflexibles,5402,!
+572,537,555,590,Ca0,Eriador,Angmar,,Campement,Campement du centre-angmar,Nazguls,Campement balchorth,,!
+569,521,323,700,Ca1,Eriador,Angmar,,Campement,Campement clandestin,Nazguls,Campement de mercenaires,,!
+577,521,438,707,Ca2,Eriador,Angmar,,Campement,Campement clandestin,Nazguls,Campement de mercenaires,,!
+567,531,329,763,Fo0,Eriador,Angmar,,Forêt,Forêt de l'Ekc,Nazguls,Une forêt dense dans les montagnes ,,!
+566,538,655,716,Fo1,Eriador,Angmar,,Forêt,Forêt du Maethad,Nazguls,Une forêt de plaine où des voleurs se cachent,,!
+579,538,674,625,Mo0,Eriador,Angmar,,Montagne,Montagne de Gorothlad,Nazguls,La plus grande montagne d'Angmar,,!
+573,537,359,577,Lo0,Eriador,Angmar,,Location de chevaux,Location Angmar,Nazguls,Une location de chevaux,,!
+574,535,577,518,Lo1,Eriador,Angmar,,Location de chevaux,Location Hithaeglir,Nazguls,Une location de chevaux,,!
+564,534,546,650,Po0,Eriador,Angmar,,Point de régénération de magie ,Puits de mana,Nazguls,Un puits de mana,,!
+565,521,426,710,Po1,Eriador,Angmar,,Point de régénération de magie ,Puits de mana,Nazguls,Un puits de mana,,!
+581,535,426,578,Po2,Eriador,Angmar,,Point de régénération de magie ,Puits de mana,Nazguls,Un puits de mana ,,!
+575,532,450,578,Ho0,Eriador,Angmar,,Hotel de soin,Puits de vie,Nazguls,Un puits de vie,,!
+573,534,434,709,Ho1,Eriador,Angmar,,Hotel de soin,Puits de vie,Nazguls,Un puits de vie,,!
+572,535,534,642,Ho2,Eriador,Angmar,,Hotel de soin,Puits de vie,Nazguls,Un puits de vie,,!
+569,537,637,756,Ho3,Eriador,Angmar,,Hotel de soin,Puits de vie,Nazguls,Un puits de vie,,!
+577,536,578,642,Vier1,Eriador,,,,Comté,,,7100,!
+567,564,606,658,Au3,Eriador,Comté,,Auberge,Auberge du dragon vert,Hobbits,L'auberge qui fait la réputation du village de Lezeau ville théâtre de la plus grande bataille du Comté,,!
+566,574,630,658,Ba0,Eriador,Comté,,Bataille,Bataille de Lezeau,Hobbits,La plus grande bataille du Comté opposant les hommes de Saroumane contre les hobbits qui se révoltent contre l'oppression de celui-ci sous l'impulsion des quatres Hobbits de la fraternité de l'Anneau,3019,!
+579,566,552,531,Fo2,Eriador,Comté,,Forêt,Forêt de Bindbole,Hobbits,Il existe un véritable lieu en angleterre dont cette forêt est inspirée (Bindbole wood),,!
+573,561,674,495,Fo3,Eriador,Comté,,Forêt,Forêt des Champs verts,Hobbits,Une forêt,,!
+574,587,761,615,Fo4,Eriador,Comté,,Forêt,Forêt des Champs du pont,Hobbits,Les Champs du Pont sont situés entre Blancs Sillons et le Brandivin le long du cours de l'Eau.,,!
+564,522,796,736,Fo5,Eriador,Comté,,Forêt,Forêt maraisque,Hobbits,Une forêt,,!
+579,541,529,717,Fo6,Eriador,Comté,,Forêt,Forêt du bourg de touque,Hobbits,Une forêt,,!
+573,560,654,658,Fo7,Eriador,Comté,,Forêt,Forêt de lezeau,Hobbits,Une forêt,,!
+574,565,356,547,Fl0,Eriador,Comté,,Fleuve,L'eau ,Hobbits,L'eau est une rivière qui naît dans le quartier ouest du comté le traverse et se jette à l'est dans le Beandivin. ,,!
+564,569,582,658,Vicom0,Eriador,Comté,,Village,Village de Lezeau,Hobbits,Le Village de Lezeau a été théâtre de la plus grande bataille du comté,,!
+565,568,736,548,Vicom1,Eriador,Comté,,Village,Blaireautière,Hobbits,La bléreautière se siture à l'orée sud des villages de scarie,,!
+581,562,801,740,Vicom2,Eriador,Comté,,Village,Blancs scillons,Hobbits,Village du quartier est,,!
+575,570,737,634,Vicom3,Eriador,Comté,,Village,Gué du pont,Hobbits,Village du quartier est (aussi appellé Bollegué),,!
+573,575,428,619,Vicom4,Eriador,Comté,,Village,Bourdeneuve,Hobbits,Village du quartier ouest,,!
+572,555,556,714,Vicom5,Eriador,Comté,,Village,Bourg de touque,Hobbits,Le village le plus ancien du comté,,!
+573,559,814,614,Vicom6,Eriador,Comté,,Village,Chateau brande,Hobbits ,Village où habitait bilbon,,!
+572,569,815,523,Vicom7,Eriador,Comté,,Village,(ancien) Village de follogis,Hobbits,Village innondé,,!
+569,542,756,697,Vicom8,Eriador,Comté,,Village,Castelbois,Hobbits,Village du sud du Comté,,!
+577,532,803,675,Vicom9,Eriador,Comté,,Village,Stock,Hobbits,Village du quartier est,,!
+567,534,407,671,Vicom10,Eriador,Comté,,Village,Courtecave,Hobbits,Grotte où habitent certains anciens du Comté,,!
+566,535,689,534,Vicom11,Eriador,Comté,,Village,Trou des grizards,Hobbits,un hameau formé d’un réseau de cavernes et de tunnels. Sa position excentrée poussa probablement Fredegar Bolger et sa bande de rebelles à s’y réfugier quand Saruman prit le contrôle de la Comté durant la Guerre de l'Anneau. ,,!
+579,537,606,682,Po3,Eriador,Comté,,Point de régénération de magie ,Puits de mana de Lézeau,Hobbits,,,!
+573,536,740,570,Po4,Eriador,Comté,,Point de régénération de magie ,Puits de mana,Hobbits,,,!
+574,564,437,773,Po5,Eriador,Comté,,Point de régénération de magie ,Puits de mana des résidences,Hobbits,,,!
+564,574,582,682,Ho4,Eriador,Comté,,Hotel de soin,Puits de vie de Lézeau,Hobbits,,,!
+579,566,461,773,Ho5,Eriador,Comté,,Hotel de soin,Puits de vie des résidences,Hobbits,,,!
+573,561,738,574,Ho6,Eriador,Comté,,Hotel de soin,Puits de vie,Hobbits,,,!
+574,587,803,722,Ho7,Eriador,Comté,,Hotel de soin,Puits de vie,Hobbits,,,!
+564,522,816,747,Vier2,Eriador,Comté,,,Enedwaith,,,328,!
+565,541,432,584,Vien0,Eriador,Enedwaith,,Village,Maur Thlhau,Anciennement les hommes,Village hobbit,,!
+581,560,426,758,Ca3,Eriador,Enedwaith,,Campement,Demeure du chasseur,Anciennement les hommes,Campement caché,,!
+575,565,730,697,Ca4,Eriador,Enedwaith,,Campement,Campement des géants,Anciennement les hommes,Une zone remplie de géants,,!
+564,569,809,675,Ba1,Eriador,Enedwaith,,Bataille,Bataille de Draigoch,Anciennement les hommes,Une bataille féroce contre un dragon,,!
+565,568,766,649,Mo1,Eriador,Enedwaith,,Montagne,Pic de Nar,Anciennement les hommes,La légende raconte qu'il y aurait un livre sacré dans une grotte au sommet de cette montagne,,!
+581,562,553,724,Fo8,Eriador,Enedwaith,,Forêt,Forêt de Rivemort,Anciennement les hommes,Une forêt,,!
+575,570,478,683,Fo9,Eriador,Enedwaith,,Forêt,Forêt de Tristebois,Anciennement les hommes,Une forêt,,!
+573,575,505,595,Fo10,Eriador,Enedwaith,,Forêt,Forêt de Tristevallon,Anciennement les hommes,Une forêt,,!
+572,568,599,557,Fo11,Eriador,Enedwaith,,Forêt,Fordirith,Anciennement les hommes,Une forêt,,!
+573,562,603,651,Fl1,Eriador,Enedwaith,,Fleuve,Rivière Gathlo,Anciennement les hommes,Alimenté par les eaux de la Mitheithel de la Bruinen et du Glanduin qui coule vers le sud-ouest et se jette dans Belegaer. Il sépare le Minhiriath au nord de l'Enedwaith au sud. ,2140,!
+572,570,446,737,Po6,Eriador,Enedwaith,,Point de régénération de magie ,Puits de mana,Anciennement les hommes,,,!
+569,575,422,677,Po7,Eriador,Enedwaith,,Point de régénération de magie ,Puits de mana,Anciennement les hommes,,,!
+577,555,496,662,Po8,Eriador,Enedwaith,,Point de régénération de magie ,Puits de mana,Anciennement les hommes,,,!
+567,559,549,646,Po9,Eriador,Enedwaith,,Point de régénération de magie ,Puits de mana,Anciennement les hommes,,,!
+566,569,603,652,Po10,Eriador,Enedwaith,,Point de régénération de magie ,Puits de mana,Anciennement les hommes,,,!
+579,542,705,652,Po11,Eriador,Enedwaith,,Point de régénération de magie ,Puits de mana,Anciennement les hommes,,,!
+573,532,433,724,Ho8,Eriador,Enedwaith,,Hotel de soin,Puits de vie,Anciennement les hommes,,,!
+574,534,742,663,Ho9,Eriador,Enedwaith,,Hotel de soin,Puits de vie,Anciennement les hommes,,,!
+564,535,528,576,Ho10,Eriador,Enedwaith,,Hotel de soin,Puits de vie,Anciennement les hommes,,,!
+579,537,474,578,Vier3,Eriador,,,,Puits de vie,Anciennement les hommes,,,!
+,,470,472,Mo2,Eriador,Eredluin,,Montagne,Pic de Thorin,Elfes,,,!
+,,476,510,Mo3,Eriador,Eredluin,,Montagne,Pic du mithril,Elfes,,,!
+,,577,523,Mo4,Eriador,Eredluin,,Montagne,Pic des Sinadrins,Elfes,,,!
+,,798,609,Viere2,Eriador,Eredluin,,Village,Kheledul,Elfes,,,!
+,,796,739,Viere1,Eriador,Eredluin,,Village,Celondim,Elfes,,,!
+,,866,533,Fl2,Eriador,Eredluin,,Fleuve,Fleuve Lune,Elfes,,,!
+,,777,661,Viere2,Eriador,Eredluin,,Village,Duillond,Elfes,,,!
+,,656,593,Viere3,Eriador,Eredluin,,Village,Gondamon,Elfes,,,!
+,,582,571,Mo5,Eriador,Eredluin,,Montagne,Noglond,Elfes,,,!
+,,760,586,Fo10,Eriador,Eredluin,,Forêt,Fôret de Haudh Lin,Elfes,,,!
+,,562,470,Au4,Eriador,Eredluin,,Auberge,Auberge du froid mordant ,Elfes,,,!
+,,700,696,Ca5,Eriador,Eredluin,,Campement,Campement elfique,Elfes,,,!
+,,693,540,Au5,Eriador,Eredluin,,Auberge,Auberge des basses-terres,Elfes,,,!
+,,750,566,Po12,Eriador,Eredluin,,Point de régénération de magie ,Puits de mana,Elfes,,,!
+,,804,622,Po13,Eriador,Eredluin,,Point de régénération de magie ,Puits de mana,Elfes,,,!
+,,669,648,Po14,Eriador,Eredluin,,Point de régénération de magie ,Puits de mana,Elfes,,,!
+,,474,490,Po15,Eriador,Eredluin,,Point de régénération de magie ,Puits de mana,Elfes,,,!
+,,498,490,Ho11,Eriador,Eredluin,,Hotel de soin,Puits de vie,Elfes,,,!
+,,639,547,Ho12,Eriador,Eredluin,,Hotel de soin,Puits de vie,Elfes,,,!
+,,852,687,Vier4,Eriador, ,,,,,,2493,!
+,,418,736,Ca6,Eriador,Ergion,,Campement,Campement de mirobel,Pas de dominance,,,!
+,,441,750,Ca7,Eriador,Ergion,,Campement,Campement de mirobel,Pas de dominance,,,!
+,,398,760,Ca8,Eriador,Ergion,,Campement,Campement de mirobel,Pas de dominance,,,!
+,,484,656,Ca9,Eriador,Ergion,,Campement,Campement de Echad Ereigon,Pas de dominance,,,!
+,,424,518,Ca10,Eriador,Ergion,,Campement,Campement de Gwingris,Pas de dominance,,,!
+,,552,587,Ca11,Eriador,Ergion,,Campement,Campement de la houssaye,Pas de dominance,,,!
+,,570,561,Mo6,Eriador,Ergion,,Montagne,Chaîne de la houssaye,Pas de dominance,,,!
+,,686,513,Fo11,Eriador,Ergion,,Forêt,Pend ereigon,Pas de dominance,,,!
+,,422,564,Fo12,Eriador,Ergion,,Forêt,Glad ereigon,Pas de dominance,,,!
+,,717,714,Ca12,Eriador,Ergion,,Campement,Campement de la Moria,Pas de dominance,,,!
+,,624,706,Ca13,Eriador,Ergion,,Campement,Campement Echad Dunnan,Pas de dominance,,,!
+,,508,809,Fl3,Eriador,Ergion,,Fleuve,Emyn naer,Pas de dominance,,,!
+,,556,633,Fo13,Eriador,Ergion,,Forêt,Forêt de la houssaye,Pas de dominance,,,!
+,,490,560,Po16,Eriador,Ergion,,Point de régénération de magie ,Puits de mana,Pas de dominance,,,!
+,,698,720,Po17,Eriador,Ergion,,Point de régénération de magie ,Puits de mana,Pas de dominance,,,!
+,,715,705,Ho13,Eriador,Ergion,,Hotel de soin,Puits de vie,Pas de dominance,,,!
+,,618,640,Ho14,Eriador,Ergion,,Hotel de soin,Puits de vie,Pas de dominance,,,!
+,,542,627,Ho15,Eriador,Ergion,,Hotel de soin,Puits de vie,Pas de dominance,,,!
+,,608,535,Ho16,Eriador,Ergion,,Hotel de soin,Puits de vie,Pas de dominance,,,!
+,,586,605,Vier5,Eriador,,,,,,,8210,!
+,,434,542,Ca12,Eriador,Evendim,,Campement,Campement des géants,Hommes,,,!
+,,408,559,Mo7,Eriador,Evendim,,Montagne,Montagne des géants,Hommes,,,!
+,,673,522,Fo13,Eriador,Evendim,,Forêt,Ost forod,Hommes,,,!
+,,706,606,Vieri0,Eriador,Evendim,,Village,Parth Aduial,Hommes,,,!
+,,551,720,vieri1,Eriador,Evendim,,Village,Annuminas (capitale),Hommes,,,!
+,,733,759,Fl4,Eriador,Evendim,,Fleuve,Brandevin,Hommes,,,!
+,,692,756,Ca14,Eriador,Evendim,,Campement,Campement de Dwalling,Hommes,,,!
+,,630,791,Fo14,Eriador,Evendim,,Forêt,Forêt du toreau,Hommes,,,!
+,,506,618,Au6,Eriador,Evendim,,Auberge,Tour tyl ruimen,Hommes,,,!
+,,593,605,Au7,Eriador,Evendim,,Auberge,Tour tyl annun,Hommes,,,!
+,,656,485,Mo7,Eriador,Evendim,,Montagne,Montagne Tryn Foreth,Hommes,,,!
+,,592,701,Po18,Eriador,Evendim,,Point de régénération de magie ,Puits de mana,Hommes,,,!
+,,533,705,Po19,Eriador,Evendim,,Point de régénération de magie ,Puits de mana,Hommes,,,!
+,,576,792,Po20,Eriador,Evendim,,Point de régénération de magie ,Puits de mana,Hommes,,,!
+,,437,640,q,Eriador,Evendim,,Hotel de soin,Puits de vie,Hommes,,,!
+,,614,566,Ho18,Eriador,Evendim,,Hotel de soin,Puits de vie,Hommes,,,!
+,,619,522,Ho19,Eriador,Evendim,,Hotel de soin,Puits de vie,Hommes,,,!
+,,474,558,Ho20,Eriador,Evendim,,Hotel de soin,Puits de vie,Hommes,,,!
+,,503,597,Ho21,Eriador,Evendim,,Hotel de soin,Puits de vie,Hommes,,,!
+,,547,525,Vier6,Eriador,,,,,,,10921,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,,,,Eriador,Forochel,,,,,,,!
+,,691,562,Vier7,Eriador,,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,,,,Eriador,Hauts du nord,,,,,,,!
+,,807,569,Vier8,Eriador,,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,,,,Eriador,Landes d'etten,,,,,,,!
+,,883,549,Vier9,Eriador,,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,,,,Eriador,Monts brumeux,,,,,,,!
+,,873,791,Vier10,Eriador,,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,,,,Eriador,Nan curunir,,,,,,,!
+,,668,632,Vier11,Eriador,,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,,,,Eriador,Pays de bree,,,,,,,!
+,,806,786,Vier12,Eriador,,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,,,,Eriador,Pays de dun,,,,,,,!
+,,741,619,Vier13,Eriador,,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,,,,Eriador,Terres solitaires,,,,,,,!
+,,874,609,Vier14,Eriador,,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,,,,Eriador,Trouée des trolls,,,,,,,!
+,,692,600,Vigo0,Gondor,,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,,,,Gondor,Ancien anorien,,,,,,,!
+,,566,676,Vigo1,Gondor,,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,,,,Gondor,Gondor centre,,,,,,,!
+,,693,657,Vigo2,Gondor,,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,,,,Gondor,Gondor est,,,,,,,!
+,,451,636,Vigo3,Gondor,,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,,,,Gondor,Gondor ouest,,,,,,,!
+,,606,573,Vigo4,Gondor,,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,,,,Gondor,Lointain anorien,,,,,,,!
+,,692,502,Vigo5,Gondor,,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,,,,Gondor,Marais des morts,,,,,,,!
+,,677,625,Vigo6,Gondor,,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,,,,Gondor,Minas tirith,,,,,,,!
+,,742,627,Vigo7,Gondor,,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Gondor,Osgiliath,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,,,,Mordor,Mordor,,,,,,,!
+,,468,656,Virh0,Rhovanion,,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,,,,Rhovanion,Fangorn,,,,,,,!
+,,612,576,Virh1,Rhovanion,,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,,,,Rhovanion,Foret noire du sud,,,,,,,!
+,,539,628,Virh2,Rhovanion,,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,,,,Rhovanion,Grand fleuve,,,,,,,!
+,,506,592,Virh3,Rhovanion,,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,,,,Rhovanion,Lothlorien,,,,,,,!
+,,435,582,Virh4,Rhovanion,,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,,,,Rhovanion,Moria,,,,,,,!
+,,550,677,Virh5,Rhovanion,,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,,,,Rhovanion,Rhonan est,,,,,,,!
+,,463,716,Virh6,Rhovanion,,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!
+,,,,,Rhovanion,Rhonan ouest,,,,,,,!

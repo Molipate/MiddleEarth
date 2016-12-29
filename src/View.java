@@ -32,7 +32,7 @@ public class View extends JFrame {
             {"Rhovanion", "Fangorn", "Foret Noiresud", "Grand fleuve", "Lothlorien", "Moria",
                     "Rohan Est", "Rohan Ouest"}};
 
-    private final String []iconsName = new String[]{"Battailles", "Rivières", "Forêts", "Auberges",
+    private final String []iconsName = new String[]{"Batailles", "Rivières", "Forêts", "Auberges",
             "Locations Cheveaux", "Montagnes", "Sources de magie", "Sources de santé", "Villes"};
 
     public View(Model model) {
