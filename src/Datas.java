@@ -81,8 +81,28 @@ public class Datas {
         return commune;
     }
 
-    public String getCategorie() {
-        return categorie;
+    public int getCategorie() {
+
+        if(categorie == "Bataille")
+            return 0;
+        if(categorie == "Fleuve")
+            return 1;
+        if(categorie == "Forêt")
+            return 2;
+        if(categorie == "Auberge")
+            return 3;
+        if(categorie == "Location de chevaux")
+            return 4;
+        if(categorie == "Montagne")
+            return 5;
+        if(categorie == "Point de régénération de magie ")
+            return 6;
+        if(categorie == "Hotel de soin")
+            return 7;
+        if(categorie == "Village")
+            return 8;
+
+        return -1;
     }
 
     public String getDesignation() {

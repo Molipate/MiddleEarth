@@ -15,7 +15,6 @@ public class View extends JFrame {
     private JLabel labelDistrict;
     private JLabel labelArea;
 
-    private JLabel []labelIcons;
     private JCheckBox []boxIcons;
 
     private JPanel options_panel;
@@ -44,10 +43,6 @@ public class View extends JFrame {
         labelDistrict = new JLabel("Région principale : ");
         labelArea = new JLabel("Région secondaire : ");
 
-        labelIcons = new JLabel[iconsName.length];
-        for (int i = 0; i < iconsName.length; i++)
-            labelIcons[i] = new JLabel(iconsName[i]);
-
         boxIcons = new JCheckBox[iconsName.length];
         for (int i = 0; i < iconsName.length; i++)
             boxIcons[i] = new JCheckBox(iconsName[i]);
@@ -75,6 +70,12 @@ public class View extends JFrame {
 
         listArea.setActionCommand("LA");
         listArea.addActionListener(actionListener);
+
+
+        for (int i = 0; i < boxIcons.length; i++) {
+            boxIcons[i].setActionCommand("BI");
+            boxIcons[i].addActionListener(actionListener);
+        }
     }
 
     public void update() {
@@ -84,7 +85,7 @@ public class View extends JFrame {
             listArea.addItem(area[model.getCurrentDistrict()][i]);
         listArea.setSelectedIndex(model.getCurrentArea());
 
-        drawing_panel.update(area[model.getCurrentDistrict()][model.getCurrentArea()]);
+        drawing_panel.update(area[model.getCurrentDistrict()][model.getCurrentArea()], area[model.getCurrentDistrict()][0], model.getOptions());
     }
 
     public void render() {
@@ -104,6 +105,12 @@ public class View extends JFrame {
             options_panel.add(new JLabel());
         }
 
+        int[] options = model.getOptions();
+
+        for(int i = 0; i < options.length; i++)
+            if(options[i] == 1)
+                boxIcons[i].setSelected(true);
+
         add(options_panel);
         add(drawing_panel);
 
@@ -116,5 +123,34 @@ public class View extends JFrame {
 
     public int getAreaID() {
         return listArea.getSelectedIndex();
+    }
+
+    public int[] getOptions(){
+
+        int[] options = new int[9];
+
+        for (int i = 0; i < 9; i++)
+            options[i] = 0;
+
+        if(boxIcons[0].isSelected())
+            options[0] = 1;
+        if(boxIcons[1].isSelected())
+            options[1] = 1;
+        if(boxIcons[2].isSelected())
+            options[2] = 1;
+        if(boxIcons[3].isSelected())
+            options[3] = 1;
+        if(boxIcons[4].isSelected())
+            options[4] = 1;
+        if(boxIcons[5].isSelected())
+            options[5] = 1;
+        if(boxIcons[6].isSelected())
+            options[6] = 1;
+        if(boxIcons[7].isSelected())
+            options[7] = 1;
+        if(boxIcons[8].isSelected())
+            options[8] = 1;
+
+        return options;
     }
 }

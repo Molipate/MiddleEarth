@@ -34,5 +34,12 @@ public class Control implements ActionListener{
             view.update();
             view.render();
         }
+
+        else if(e.getActionCommand() == "BI"){
+
+            model.setOptions(view.getOptions());
+            view.update();
+            view.render();
+        }
     }
 }

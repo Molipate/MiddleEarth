@@ -1,4 +1,5 @@
 import javax.imageio.ImageIO;
+import javax.swing.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.ImageConsumer;
 import java.io.*;
@@ -13,6 +14,7 @@ public class Ressources {
 
     private Map<String, BufferedImage> maps;
     private ArrayList<Datas> datas;
+    private ArrayList<BufferedImage> icons;
 
     public static Ressources getInstance() {
         return ourInstance;
@@ -32,10 +34,34 @@ public class Ressources {
         return null;
     }
 
+    public ArrayList<Datas> getDatas() {
+        return datas;
+    }
+
+    public BufferedImage getIcon(int id){
+        return icons.get(id);
+    }
+
     private Ressources() {
 
         maps = new HashMap<String, BufferedImage>();
         datas = new ArrayList<>();
+        icons = new ArrayList<>();
+        try {
+            icons.add(ImageIO.read(new File("Assets/Icons/batailles..png")));
+            icons.add(ImageIO.read(new File("Assets/Icons/fleuve..png")));
+            icons.add(ImageIO.read(new File("Assets/Icons/foret..png")));
+            icons.add(ImageIO.read(new File("Assets/Icons/inn..png")));
+            icons.add(ImageIO.read(new File("Assets/Icons/locachevaux..png")));
+            icons.add(ImageIO.read(new File("Assets/Icons/montagne..png")));
+            icons.add(ImageIO.read(new File("Assets/Icons/regenmagie..png")));
+            icons.add(ImageIO.read(new File("Assets/Icons/regensante..png")));
+            icons.add(ImageIO.read(new File("Assets/Icons/ville..png")));
+        }
+        catch (IOException e){
+            System.out.println(e.toString());
+        }
+
         try{
 
             maps.put("Middle Earth", ImageIO.read(new File("Assets/middlearth.png")));
@@ -87,11 +113,8 @@ public class Ressources {
             BufferedReader br = new BufferedReader(ipsr);
 
             String line = br.readLine();
-            while((line = br.readLine()) != null) {
-                Datas d = new Datas(line);
-                datas.add(d);
-                //System.out.println(d.toString());
-            }
+            while((line = br.readLine()) != null)
+                datas.add(new Datas(line));
 
             br.close();
         }
