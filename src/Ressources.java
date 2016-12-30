@@ -113,9 +113,13 @@ public class Ressources {
             InputStreamReader ipsr = new InputStreamReader(ips);
             BufferedReader br = new BufferedReader(ipsr);
 
+            int i = 1;
             String line = br.readLine();
-            while((line = br.readLine()) != null)
+            while((line = br.readLine()) != null) {
                 datas.add(new Datas(line));
+                System.out.println(i);
+                i++;
+            }
 
             br.close();
         }
