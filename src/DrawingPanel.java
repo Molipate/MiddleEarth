@@ -6,6 +6,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Objects;
 
 /**
  * Created by molipate on 30/11/16.
@@ -48,15 +49,6 @@ public class DrawingPanel extends JPanel {
 
         JLabel picLabel = new JLabel(test);
         add(picLabel, BorderLayout.EAST);
-
-        ArrayList<Datas> d = r.getDatas();
-
-        Datas tmp = d.get(0);
-
-        BufferedImage img = r.getIcon(0);
-
-        Graphics g = img.getGraphics();
-        g.drawImage(img, 50, 50, null);
     }
 
     protected void paintComponent(Graphics g){
@@ -65,23 +57,18 @@ public class DrawingPanel extends JPanel {
 
         ArrayList<Datas> d = r.getDatas();
 
-        System.out.println("Affichage de l'icone");
-        g.drawImage(r.getIcon(0), 100, 100, null);
+        //g.drawImage(r.getIcon(0), 100, 100, null);
 
         for (int i = 0; i < d.size(); i++) {
             Datas tmp = d.get(i);
 
-            //System.out.println(tmp.getRegion());
-            //System.out.println(tmp.getCommune());
-
-            if(tmp.getRegion() == district && tmp.getCommune() == area){
-                System.out.println("first");
-                if(tmp.getCategorie() != -1)
-                    if(options[tmp.getCategorie()] == 1){
-                        System.out.println("Affichage : " + tmp.getRef());
-                        g.drawImage(r.getIcon(options[tmp.getCategorie()]), tmp.getLatitude(), tmp.getLongitude(), null);
+            if(Objects.equals(tmp.getRegion(), district) && Objects.equals(tmp.getCommune(), area)){
+                if(tmp.getCategorie() != -1) {
+                    if (options[tmp.getCategorie()] == 1) {
+                        System.out.println("Affichage : " + tmp.getCategorie());
+                        g.drawImage(r.getIcon(tmp.getCategorie()), tmp.getLatitude(), tmp.getLongitude(), null);
                     }
-
+                }
             }
         }
         //g.drawImage()
