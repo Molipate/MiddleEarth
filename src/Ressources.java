@@ -72,12 +72,13 @@ public class Ressources {
             maps.put("Enedwaith", ImageIO.read(new File("Assets/eriador/enedwaith/enedwaith.png")));
             maps.put("Eredluin", ImageIO.read(new File("Assets/eriador/eredluin/eredluin.png")));
             maps.put("Eregion", ImageIO.read(new File("Assets/eriador/eregion/eregion.png")));
+            maps.put("Evendim", ImageIO.read(new File("Assets/eriador/evendim/evendim.png")));
             maps.put("Forochel", ImageIO.read(new File("Assets/eriador/forochel/forochel.png")));
             maps.put("Hauts du nord", ImageIO.read(new File("Assets/eriador/hauts du nord/hautsdunord.png")));
-            maps.put("Landes d'Etten", ImageIO.read(new File("Assets/eriador/landes d'etten/landesetten.png")));
-            maps.put("Monts Brumeux", ImageIO.read(new File("Assets/eriador/monts brumeux/montsbrumeux.png")));
-            maps.put("Nan Curunir", ImageIO.read(new File("Assets/eriador/nan curunir/nan curunir.png")));
-            maps.put("Pays de Bree", ImageIO.read(new File("Assets/eriador/pays de bree/paysbree.png")));
+            maps.put("Landes d'etten", ImageIO.read(new File("Assets/eriador/landes d'etten/landesetten.png")));
+            maps.put("Monts brumeux", ImageIO.read(new File("Assets/eriador/monts brumeux/montsbrumeux.png")));
+            maps.put("Nan curunir", ImageIO.read(new File("Assets/eriador/nan curunir/nan curunir.png")));
+            maps.put("Pays de bree", ImageIO.read(new File("Assets/eriador/pays de bree/paysbree.png")));
             maps.put("Pays de Dun", ImageIO.read(new File("Assets/eriador/pays de dun/paysdun.png")));
             maps.put("Terres solitaires", ImageIO.read(new File("Assets/eriador/terres solitaires/terressolitaires.png")));
             maps.put("Trouée des trolls", ImageIO.read(new File("Assets/eriador/trouée des trolls/troueetrolls.png")));
@@ -115,11 +116,8 @@ public class Ressources {
 
             int i = 1;
             String line = br.readLine();
-            while((line = br.readLine()) != null) {
+            while((line = br.readLine()) != null)
                 datas.add(new Datas(line));
-                System.out.println(i);
-                i++;
-            }
 
             br.close();
         }

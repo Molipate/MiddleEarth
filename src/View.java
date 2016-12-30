@@ -23,7 +23,7 @@ public class View extends JFrame {
     private final String [][]area = new String[][]{
             {"Middle Earth"},
             {"Eriador", "Angmar", "Comté", "Enedwaith", "Eredluin", "Eregion", "Evendim", "Forochel",
-                    "Hauts du nord", "Landes d'Etten", "Monts Brumeux", "Nan Curunir", "Pays de Bree", "Pays de Dun",
+                    "Hauts du nord", "Landes d'etten", "Monts brumeux", "Nan curunir", "Pays de bree", "Pays de Dun",
                     "Terres solitaires", "Trouée des trolls"},
             {"Gondor", "Ancien Anorien", "Centre Gondor", "Est Gondor", "Lointain Anorien", "Marais Morts",
                     "Minastirith", "Osgiliath", "Ouest Gondor"},
