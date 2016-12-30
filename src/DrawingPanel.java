@@ -73,6 +73,6 @@ public class DrawingPanel extends JPanel {
                 }
             }
         }
-        //g.drawImage()
+        //g.drawImage();
     }
 }
