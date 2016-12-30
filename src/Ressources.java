@@ -65,7 +65,7 @@ public class Ressources {
         try{
 
             maps.put("Middle Earth", ImageIO.read(new File("Assets/middlearth.png")));
-            maps.put("Eriador", ImageIO.read(new File("Assets/eriador/eriador.png")));
+            /*maps.put("Eriador", ImageIO.read(new File("Assets/eriador/eriador.png")));
             maps.put("Angmar", ImageIO.read(new File("Assets/eriador/angmar/angmar.png")));
             maps.put("Comté", ImageIO.read(new File("Assets/eriador/comté/comté.png")));
             maps.put("Enedwaith", ImageIO.read(new File("Assets/eriador/enedwaith/enedwaith.png")));
@@ -100,7 +100,7 @@ public class Ressources {
             maps.put("Lothlorien", ImageIO.read(new File("Assets/rhovanion/Lothlorien/lothlorien.png")));
             maps.put("Moria", ImageIO.read(new File("Assets/rhovanion/moria/moria.png")));
             maps.put("Rohan Est", ImageIO.read(new File("Assets/rhovanion/Rhoan est/rohanest.png")));
-            maps.put("Rohan Ouest", ImageIO.read(new File("Assets/rhovanion/Rohan ouest/rohan ouest.png")));
+            maps.put("Rohan Ouest", ImageIO.read(new File("Assets/rhovanion/Rohan ouest/rohan ouest.png")));*/
         }
         catch (IOException e){
             System.err.println(e.toString());

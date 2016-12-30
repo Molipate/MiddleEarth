@@ -13,8 +13,6 @@ import java.util.Objects;
  */
 public class DrawingPanel extends JPanel {
 
-    private BufferedImage background;
-    private ImageIcon test;
     private Ressources r;
 
     private int[] options;
@@ -37,27 +35,21 @@ public class DrawingPanel extends JPanel {
         options = op;
         district = dis;
         area = str;
-
-        background = r.getMap(str);
-        double scale = (700 / (double) background.getWidth());
-
-        int tmp_width = (int) (background.getWidth() * scale);
-        int tmp_height = (int) (background.getHeight() * scale);
-
-        test = new ImageIcon(background);
-        test = new ImageIcon(test.getImage().getScaledInstance(tmp_width, tmp_height, BufferedImage.SCALE_SMOOTH));
-
-        JLabel picLabel = new JLabel(test);
-        add(picLabel, BorderLayout.EAST);
     }
 
     protected void paintComponent(Graphics g){
 
         super.paintComponent(g);
-
         ArrayList<Datas> d = r.getDatas();
 
-        //g.drawImage(r.getIcon(0), 100, 100, null);
+        BufferedImage background = r.getMap(area);
+        double scale = (700 / (double) background.getWidth());
+
+        int tmp_width = (int) (background.getWidth() * scale);
+        int tmp_height = (int) (background.getHeight() * scale);
+
+        g.drawImage(background.getScaledInstance(tmp_width, tmp_height, BufferedImage.SCALE_SMOOTH), 300, 700 - background.getHeight() / 2, null);
+        g.drawImage(r.getIcon(0), 300, 150, null);
 
         for (int i = 0; i < d.size(); i++) {
             Datas tmp = d.get(i);
@@ -66,7 +58,7 @@ public class DrawingPanel extends JPanel {
                 if(tmp.getCategorie() != -1) {
                     if (options[tmp.getCategorie()] == 1) {
                         System.out.println("Affichage : " + tmp.getCategorie());
-                        g.drawImage(r.getIcon(tmp.getCategorie()), tmp.getLatitude(), tmp.getLongitude(), null);
+                        g.drawImage(r.getIcon(tmp.getCategorie()), tmp.getLatitude_z() + 42, tmp.getLongitude_z() - 303, null);
                     }
                 }
             }
