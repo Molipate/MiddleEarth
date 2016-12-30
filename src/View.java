@@ -85,7 +85,7 @@ public class View extends JFrame {
             listArea.addItem(area[model.getCurrentDistrict()][i]);
         listArea.setSelectedIndex(model.getCurrentArea());
 
-        drawing_panel.update(area[model.getCurrentDistrict()][model.getCurrentArea()], area[model.getCurrentDistrict()][0], model.getOptions());
+        drawing_panel.update(area[model.getCurrentDistrict()][0], area[model.getCurrentDistrict()][model.getCurrentArea()], model.getOptions());
     }
 
     public void render() {
@@ -111,6 +111,7 @@ public class View extends JFrame {
             if(options[i] == 1)
                 boxIcons[i].setSelected(true);
 
+        drawing_panel.repaint();
         add(options_panel);
         add(drawing_panel);
 
