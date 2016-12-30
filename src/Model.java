@@ -13,8 +13,8 @@ public class Model {
         district = 0;
         area = 0;
 
-        options = new int[9];
-        for (int i = 0; i < 9; i++)
+        options = new int[10];
+        for (int i = 0; i < 10; i++)
             options[i] = 0;
     }
 

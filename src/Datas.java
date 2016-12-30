@@ -92,6 +92,7 @@ public class Datas {
         if(Objects.equals(categorie, "Point de régénération de magie ")) return 6;
         if(Objects.equals(categorie, "Hotel de soin")) return 7;
         if(Objects.equals(categorie, "Village")) return 8;
+        if(Objects.equals(categorie, "Campement")) return 9;
 
         return -1;
     }

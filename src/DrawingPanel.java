@@ -15,6 +15,8 @@ public class DrawingPanel extends JPanel {
 
     private Ressources r;
 
+    private BufferedImage background;
+
     private int[] options;
     private String district;
     private String area;
@@ -42,14 +44,13 @@ public class DrawingPanel extends JPanel {
         super.paintComponent(g);
         ArrayList<Datas> d = r.getDatas();
 
-        BufferedImage background = r.getMap(area);
-        double scale = (700 / (double) background.getWidth());
+        //background = r.getMap(area);
+        //double scale = (700 / (double) background.getWidth());
 
-        int tmp_width = (int) (background.getWidth() * scale);
-        int tmp_height = (int) (background.getHeight() * scale);
+        //int tmp_width = (int) (background.getWidth() * scale);
+        //int tmp_height = (int) (background.getHeight() * scale);
 
-        g.drawImage(background.getScaledInstance(tmp_width, tmp_height, BufferedImage.SCALE_SMOOTH), 300, 700 - background.getHeight() / 2, null);
-        g.drawImage(r.getIcon(0), 300, 150, null);
+        //g.drawImage(background.getScaledInstance(tmp_width, tmp_height, BufferedImage.SCALE_SMOOTH), 300, (700 - tmp_height) / 2 - 20, null);
 
         for (int i = 0; i < d.size(); i++) {
             Datas tmp = d.get(i);

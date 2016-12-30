@@ -32,7 +32,7 @@ public class View extends JFrame {
                     "Rohan Est", "Rohan Ouest"}};
 
     private final String []iconsName = new String[]{"Batailles", "Rivières", "Forêts", "Auberges",
-            "Locations Cheveaux", "Montagnes", "Sources de magie", "Sources de santé", "Villes"};
+            "Locations Cheveaux", "Montagnes", "Sources de magie", "Sources de santé", "Villes", "Campements"};
 
     public View(Model model) {
         this.model = model;
@@ -127,9 +127,9 @@ public class View extends JFrame {
 
     public int[] getOptions(){
 
-        int[] options = new int[9];
+        int[] options = new int[10];
 
-        for (int i = 0; i < 9; i++)
+        for (int i = 0; i < 10; i++)
             options[i] = 0;
 
         if(boxIcons[0].isSelected())
@@ -150,6 +150,8 @@ public class View extends JFrame {
             options[7] = 1;
         if(boxIcons[8].isSelected())
             options[8] = 1;
+        if(boxIcons[9].isSelected())
+            options[9] = 1;
 
         return options;
     }
