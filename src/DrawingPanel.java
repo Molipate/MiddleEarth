@@ -2,6 +2,8 @@ import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -39,16 +41,6 @@ public class DrawingPanel extends JPanel {
         this.options = option;
 
         background = r.getMap(area);
-
-        /*double scale = (700 / (double) background.getWidth());
-        int tmp_width = (int) (background.getWidth() * scale);
-        int tmp_height = (int) (background.getHeight() * scale);
-
-        test = new ImageIcon(background);
-        test = new ImageIcon(test.getImage().getScaledInstance(tmp_width, tmp_height, BufferedImage.SCALE_SMOOTH));
-
-        JLabel picLabel = new JLabel(test);
-        add(picLabel, BorderLayout.EAST);*/
     }
 
     protected void paintComponent(Graphics g){

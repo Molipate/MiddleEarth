@@ -1,6 +1,12 @@
 import javax.swing.*;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.SimpleAttributeSet;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
+import java.util.ArrayList;
+import java.util.Objects;
 
 /**
  * Created by molipate on 30/11/16.
@@ -14,11 +20,14 @@ public class View extends JFrame {
 
     private JLabel labelDistrict;
     private JLabel labelArea;
+    private JTextPane infos;
 
     private JCheckBox []boxIcons;
 
     private JPanel options_panel;
     private DrawingPanel drawing_panel;
+
+    private Ressources r;
 
     private final String [][]area = new String[][]{
             {"Middle Earth"},
@@ -47,11 +56,27 @@ public class View extends JFrame {
         for (int i = 0; i < iconsName.length; i++)
             boxIcons[i] = new JCheckBox(iconsName[i]);
 
-        options_panel = new JPanel(new GridLayout(20, 2));
+        infos = new JTextPane();
+
+        options_panel = new JPanel(new GridLayout(15, 2));
         drawing_panel = new DrawingPanel();
 
         options_panel.setSize(300, 700);
         drawing_panel.setSize(700, 700);
+
+        r = Ressources.getInstance();
+
+        drawing_panel.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                try {
+                    displayInfo(e.getX(), e.getY());
+                } catch (BadLocationException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
 
         setTitle("Middle Earth Map");
         setResizable(false);
@@ -61,6 +86,29 @@ public class View extends JFrame {
 
         update();
         render();
+    }
+
+    private void displayInfo(int x, int y) throws BadLocationException {
+
+        ArrayList<Datas> d = r.getDatas();
+
+        for (int i = 0; i < d.size(); i++) {
+
+            Datas tmp = d.get(i);
+            if (Objects.equals(tmp.getRegion(), area[model.getCurrentDistrict()][0])
+                    && Objects.equals(tmp.getCommune(), area[model.getCurrentDistrict()][model.getCurrentArea()])) {
+                if (tmp.getCategorie() != -1) {
+                    if (model.getOptions()[tmp.getCategorie()] == 1) {
+                        if(x >= tmp.getLatitude_z() + 42 &&  x <= tmp.getLatitude_z() + 66) {
+                            if (y >= tmp.getLongitude_z() - 303 && y <= tmp.getLongitude_z() - 279)
+                                infos.getStyledDocument().insertString(tmp.getDescription().length(), tmp.getDescription(), new SimpleAttributeSet());
+                        }
+
+                    }
+                }
+            }
+        }
+
     }
 
     public void setActionListener(Control actionListener) {
@@ -110,6 +158,8 @@ public class View extends JFrame {
         for(int i = 0; i < options.length; i++)
             if(options[i] == 1)
                 boxIcons[i].setSelected(true);
+
+        options_panel.add(infos);
 
         drawing_panel.repaint();
         add(options_panel);
