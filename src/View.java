@@ -100,10 +100,11 @@ public class View extends JFrame {
                 if (tmp.getCategorie() != -1) {
                     if (model.getOptions()[tmp.getCategorie()] == 1) {
                         if(x >= tmp.getLatitude_z() + 42 &&  x <= tmp.getLatitude_z() + 66) {
-                            if (y >= tmp.getLongitude_z() - 303 && y <= tmp.getLongitude_z() - 279)
+                            if (y >= tmp.getLongitude_z() - 303 && y <= tmp.getLongitude_z() - 279) {
+                                infos.setContentType("text/plain");
                                 infos.getStyledDocument().insertString(tmp.getDescription().length(), tmp.getDescription(), new SimpleAttributeSet());
+                            }
                         }
-
                     }
                 }
             }
